@@ -4,9 +4,7 @@
 
 balenaSense is a Raspberry Pi [balenaCloud](https://www.balena.io/cloud/) starter project taking readings from sensors, like a Bosch BME680 or [similar sensors](../docs/getting-started/#sensors), storing data using InfluxDB and reporting using Grafana. For a detailed, step-by-step build process, please use the official project guide for [balenaSense v2](https://www.balena.io/blog/balenasense-v2-updated-temperature-pressure-and-humidity-monitoring-for-raspberry-pi/).
 
-![](https://raw.githubusercontent.com/balena-io-projects/balena-sense/master/images/iaq-ratings.png)
-
-The sensor provides a reading for Indoor Air Quality (IAQ) which is a range from 0 to 500 where lower is better, and displays it with a web interface provided by [Grafana](https://github.com/grafana/grafana). This project uses the [sensor](https://github.com/balenablocks/sensor), [connector](https://github.com/balenablocks/connector), and [dashboard](https://github.com/balenablocks/dashboard) [balenaBlocks](https://github.com/balenablocks) to reduce the amount of code you need to manage so that you can simply set up your sensor, send data between sensor(s) and database, and immediately access a customizable, remote dashboard.
+This project uses the [sensor](https://github.com/balenablocks/sensor), [connector](https://github.com/balenablocks/connector), and [dashboard](https://github.com/balenablocks/dashboard) [balenaBlocks](https://github.com/balenablocks) to reduce the amount of code you need to manage so that you can simply set up your sensor, send data between sensor(s) and database, and immediately access a customizable, remote dashboard.
 
 ## Hardware required
 
